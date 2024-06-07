@@ -29,7 +29,7 @@ public class ProductApp {
                 case 1:
                     System.out.print("Enter Product ID: ");
                     int id = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     System.out.print("Enter Product Name: ");
                     String name = scanner.nextLine();
                     System.out.print("Enter Product Price: ");
@@ -69,7 +69,7 @@ public class ProductApp {
                 case 5:
                     System.out.print("Enter Product ID to update: ");
                     int updateId = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     System.out.print("Enter New Product Name: ");
                     String newName = scanner.nextLine();
                     System.out.print("Enter New Product Price: ");
